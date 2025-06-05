@@ -1,5 +1,5 @@
 # Prueba-T-cnica
-Este repositorio contiene una solución de prueba técnica para Ingeniería de Datos, basada en el dataset público de [Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).
+Este repositorio contiene una solución de prueba técnica para Analista de Datos, basada en el dataset público de [Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).
 # Olist ETL - SQL Server
 
 ## 📦 Archivos utilizados
@@ -23,10 +23,11 @@ Incluye archivo `ddl_script.sql` con las instrucciones para crear las tablas en 
 
 ## ⚙️ Proceso ETL
 
-El script `etl_olist_sqlserver.py` realiza:
-1. Lectura de los CSV
-2. Limpieza de datos y conversión de fechas
-3. Carga en SQL Server con SQLAlchemy y pyodbc
+Los script `etl_olist_sqlserver.py` y `etl_olist_sqlserver_conexion.py` realizan:
+1. Conexion con la base de datos 
+2. Lectura de los CSV
+3. Limpieza de datos y conversión de fechas
+4. Carga en SQL Server con SQLAlchemy y pyodbc
 
 ### Requisitos
 
