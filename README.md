@@ -29,7 +29,7 @@ Los script `etl_olist_sqlserver.py` y `etl_olist_sqlserver_conexion.py` realizan
 3. Limpieza de datos y conversión de fechas
 4. Carga en SQL Server con SQLAlchemy y pyodbc
 
-### Dashboard en power BI
+## 📊 Dashboard en power BI
 Como un extra decidi agregar tambien un archivo PBIX donde se puede apreciar el uso de los datos extraidos a travez de difentes graficos y objetos.
 - `OLIST - Dashboard de Ventas y Pedidos.pbix` 
 
